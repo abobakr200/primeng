@@ -23,16 +23,18 @@ export class PieChartDemo implements OnInit, OnDestroy {
             labels: ['A','B','C'],
             datasets: [
                 {
-                    data: [300, 50, 100],
+                    data: [300, 50, 100,400],
                     backgroundColor: [
                         "#42A5F5",
                         "#66BB6A",
-                        "#FFA726"
+                        "#FFA726",
+                        "#000000"
                     ],
                     hoverBackgroundColor: [
                         "#64B5F6",
                         "#81C784",
-                        "#FFB74D"
+                        "#FFB74D",
+                        "#000000"
                     ]
                 }
             ]
